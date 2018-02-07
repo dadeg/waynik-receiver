@@ -1,0 +1,2 @@
+ALTER TABLE `checkins` ADD COLUMN
+  `emergency` TINYINT(1) DEFAULT 0;

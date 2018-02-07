@@ -1,0 +1,8 @@
+/vendor/
+.idea*
+.vagrant*
+.DS_Store
+composer.lock
+.buildpath
+.project
+.settings/

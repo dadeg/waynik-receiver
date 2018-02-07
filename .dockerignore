@@ -1,0 +1,7 @@
+
+node_modules/
+xdebug_profiles/
+public/dist/
+public/qunit/
+public/test/
+.git

@@ -1,0 +1,14 @@
+receiver:
+  build: .
+  volumes:
+    - ~/practice/waynik/receiver:/data/www
+  external_links:
+    - useradmin_mysql_1:mysql
+  ports:
+    - 21003:80
+  environment:
+    MYSQL_DATABASE: waynik
+    MYSQL_USER: web
+    MYSQL_PASSWORD: way456nik789
+    MYSQL_HOST: mysql
+    APP_ENV: development
